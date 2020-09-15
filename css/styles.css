@@ -26,6 +26,9 @@ body {
   font-family: 'Lato-Regular';
   src: url(/fonts/Lato-Regular.ttf); }
 
+.bttnborder-one {
+  border: 1px solid white; }
+
 button#black {
   background-color: #000000;
   color: #FFFFFF;
@@ -36,7 +39,7 @@ button#black {
   border: none;
   border-radius: unset; }
 
-button#cyan {
+button.cyan {
   background-color: #10504F;
   color: #FFFFFF;
   padding-top: .5em;
@@ -44,6 +47,16 @@ button#cyan {
   padding-left: 1em;
   padding-right: 1em;
   border: none;
+  border-radius: unset; }
+
+button.newsletter {
+  background-color: #10504F;
+  color: #FFFFFF;
+  padding-top: .5em;
+  padding-bottom: .5em;
+  padding-left: 1em;
+  padding-right: 1em;
+  border: 2px solid white;
   border-radius: unset; }
 
 h1.heading-one {
@@ -341,6 +354,33 @@ ul.social-icons {
   align-content: center;
   align-items: center;
   margin-top: 1em; }
+
+.stay-connected-section {
+  background-color: #10504F;
+  padding: 3em; }
+
+.wrap-all-newsletter {
+  max-width: 420px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center; }
+
+#newsletter-headline {
+  font-family: 'Pacifico';
+  color: #FFFFFF;
+  font-size: 22px;
+  padding: 1em; }
+
+p#newsletter-paragraph {
+  font-family: 'Lato-Regular';
+  color: #FFFFFF; }
+
+.wrap-the-two-items {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto; }
 
 @media (max-width: 1366px) {
   ul.social-icons {
