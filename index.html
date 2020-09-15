@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>DYODE Project</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min-two.css">
+    <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+    <script src="js/main.js"></script>
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+    <div id="announcement-bar">
+        <p id="announcement-message">FREE SHIPPING ON ALL ORDERS OVER $75</p>
+    </div>
+
+<div class="full-width-header" id="alter-header-full">
+    <div class="header-rect" id="alter-header">
+
+
+        <div id="mobile-menu" onclick="myMenu()">
+
+            <img src="img/close-bttn.png" alt=""
+                id="close-bttn" style="display: none;">
+
+            <img id="cheese-burger-menu"
+                src="/img/menu-burger.png" alt="">
+        </div>
+
+        <div id="logo">
+            <img src="/img/logo.png" alt="" id="dyode-logo">
+            
+        </div>
+
+        <div class="desktop-links">Womens</div>
+        <div class="desktop-links">Mens</div>
+        <div class="desktop-links">Accessories</div>
+        <div class="desktop-links">Sale</div>
+
+
+        <div id="bag">
+            
+            <img src="/img/cart.png" id="dyode-bag" alt="">
+        </div>
+
+
+    </div>
+</div>
+<div id="roll-down-mobile-menu" style="height: 0vh;">
+
+    <div class="wrap-the-mobile-stuff">
+        <div class="mobile-links">Womens</div>
+        <div class="mobile-links">Mens</div>
+        <div class="mobile-links">Accessories</div>
+        <div class="mobile-links">Sale</div>
+    </div>
+
+</div>
+
+
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide">
+            <img class="hero-images" src="/img/hero-image1.jpg" srcset="img/hero-image-mobile1.jpg 3x">
+            <div class="wrap-the-cta">
+            <h1 class="heading-one">Title Goes Here</h1>
+            <h2 class="heading-two">Tagline will go here.</h3>
+            <button id="black">Shop Now</button>
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <img class="hero-images" src="/img/hero-image2.jpg" srcset="img/hero-image-mobile2.jpg 3x">
+            <div class="wrap-the-cta-two">
+            <h1 class="heading-one">Title Goes Here</h1>
+            <h2 class="heading-two">Tagline will go here.</h3>
+                <button id="cyan">Shop Now</button>
+            </div>
+        </div>
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+</div>
+
+<!-- Swiper JS -->
+<script src="js/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+    var swiper = new Swiper('.swiper-container', {
+        pagination: {
+            el: '.swiper-pagination',
+        },
+    });
+</script>
+
+
+<div class="container">
+    <div class="left">
+        <img class="category-images" src="img/womens-image.jpg" alt="">
+        <div class="category-title">
+            Womens
+        </div>
+    </div>
+    <div class="right">
+        <img class="category-images" src="img/mens-image.jpg" alt="">
+        <div class="category-title">
+            Mens
+        </div>
+    </div>
+    <div class="bottom">
+        <img class="category-images" id="mobile-category" src="img/accessories-image.jpg" alt="">
+        <div class="category-title">
+            Accessories
+        </div>
+    </div>
+</div>
+
+
+<h1 id="new-arrivals">New Arrivals</h1>
+
+
+<!-- Swiper -->
+<div class="swiper-container-new-arrivals">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide">
+            <img class="product-slider" src="img/product-image1.jpg" alt="">
+            <p class="product-title">Product Title</p>
+            <p class="sub-title">Women's T-Shirt</p>
+            <p class="price">$19.99</p>
+        </div>
+        <div class="swiper-slide">
+            <img class="product-slider" src="img/product-image1.jpg" alt="">
+            <p class="product-title">Product Title</p>
+            <p class="sub-title">Women's T-Shirt</p>
+            <p class="price">$19.99</p>
+        </div>
+        <div class="swiper-slide">
+            <img class="product-slider" src="img/product-image1.jpg" alt="">
+            <p class="product-title">Product Title</p>
+            <p class="sub-title">Women's T-Shirt</p>
+            <p class="price">$19.99</p>
+        </div>
+        <div class="swiper-slide">
+            <img class="product-slider" src="img/product-image1.jpg" alt="">
+            <p class="product-title">Product Title</p>
+            <p class="sub-title">Women's T-Shirt</p>
+            <p class="price">$19.99</p>
+        </div>
+        <div class="swiper-slide">
+            <img class="product-slider" src="img/product-image1.jpg" alt="">
+            <p class="product-title">Product Title</p>
+            <p class="sub-title">Women's T-Shirt</p>
+            <p class="price">$19.99</p>
+        </div>
+        <div class="swiper-slide">
+            <img class="product-slider" src="img/product-image1.jpg" alt="">
+            <p class="product-title">Product Title</p>
+            <p class="sub-title">Women's T-Shirt</p>
+            <p class="price">$19.99</p>
+        </div>
+        <div class="swiper-slide">
+            <img class="product-slider" src="img/product-image1.jpg" alt="">
+            <p class="product-title">Product Title</p>
+            <p class="sub-title">Women's T-Shirt</p>
+            <p class="price">$19.99</p>
+        </div>
+
+
+
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+  
+</div>
+
+<!-- Initialize Swiper -->
+<script>
+    var swipertwo = new Swiper('.swiper-container-new-arrivals', {
+        slidesPerView: 2,
+        spaceBetween: 10,
+        // init: false,
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+        breakpoints: {
+            640: {
+                slidesPerView: 2,
+                spaceBetween: 20,
+            },
+            768: {
+                slidesPerView: 4,
+                spaceBetween: 40,
+            },
+            
+        }
+    });
+</script>
+
+<div class="large-section">
+<img class="hero-images" src="/img/hero-image2.jpg" srcset="img/hero-image-mobile2.jpg 3x">
+<div class="wrap-the-cta-two">
+    <h1 class="heading-one">Title Goes Here</h1>
+    <h2 class="heading-two">Tagline will go right here.</h3>
+        <button id="cyan">Shop Now</button>
+</div>
+</div>
+
+
+
+<h1 id="follow-us">Follow us on Instagram</h1>
+
+<div class="instagram-col">
+    <img src="img/social1.jpg" alt="" class="instagram-photo">
+    <img src="img/social2.jpg" alt="" class="instagram-photo">
+    <img src="img/social3.jpg" alt="" class="instagram-photo">
+    <img src="img/social4.jpg" alt="" id="hide-four" class="instagram-photo">
+    <img src="img/social5.jpg" alt="" id="hide-five" class="instagram-photo">
+</div>
+
+
+
+<div class="wrap-the-footer">
+<footer class="footer-collapse px-1 py-3">
+    <div class="footer-row-accordians">
+
+        <div class="row">
+            <div class="col-sm-3 col-md-3">
+                <div class="widget hidden-xs-down">
+                    <h4 class="acordianlinks">Customer Service</h4>
+                    <ul class="widget-list list-unstyled p-0">
+                        <li><a class="footer-links"  href="">Accessibility</a></li>
+                        <li><a class="footer-links"  href="">Contact Us</a></li>
+                        <li><a class="footer-links"  href="">Return Policy</a></li>
+                        <li><a class="footer-links"  href="">FAQ</a></li>
+                        <li><a class="footer-links"  href="">Gift Certificates</a></li>
+                        <li><a class="footer-links"  href="">Wishlist</a></li>
+                    </ul>
+                </div>
+                <div id="accordion" role="tablist" aria-multiselectable="true" class="widget hidden-sm-up">
+                    <div role="tab" id="headingOne">
+                        <h4 class="card-header py-3 border-0">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false"
+                                aria-controls="collapseOne">
+                                Customer Service
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseOne" class="collapse" role="tabpanel" aria-labelledby="headingOne">
+                        <div class="card-block">
+                            <ul class="widget-list list-unstyled p-0">
+                                <li><a class="footer-links" href="">Accessibility</a></li>
+                                <li><a class="footer-links" href="">Contact Us</a></li>
+                                <li><a class="footer-links" href="">Return Policy</a></li>
+                                <li><a class="footer-links" href="">FAQ</a></li>
+                                <li><a class="footer-links" href="">Gift Certificates</a></li>
+                                <li><a class="footer-links" href="">Wishlist</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3 col-md-3">
+                <div class="widget hidden-xs-down">
+                    <h4 class="acordianlinks">Company</h4>
+                    <ul class="widget-list list-unstyled p-0">
+                        <li><a class="footer-links" href="">About</a></li>
+                        <li><a class="footer-links" href="">Careers</a></li>
+                        <li><a class="footer-links" href="" target="_blank">Support</a></li>
+                        <li><a class="footer-links" href="">Pricing</a></li>
+                        <li><a class="footer-links" href="">FAQ</a></li>
+                    </ul>
+                </div>
+                <div id="accordion" role="tablist" aria-multiselectable="true" class="widget hidden-sm-up">
+                    <div role="tab" id="headingTwo">
+                        <h4 class="card-header py-3 border-0">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false"
+                                aria-controls="collapseTwo">
+                                Company
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
+                        <div class="card-block">
+                            <ul class="widget-list list-unstyled">
+                                <li><a class="footer-links"  href="">About</a></li>
+                                <li><a class="footer-links"  href="">Careers</a></li>
+                                <li><a class="footer-links"  href="">Press</a></li>
+                                <li><a class="footer-links"  href="">Affiliates</a></li>
+        
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="social-footerlinks">
+                <div class="">
+                    <h4 class="acordianlinks">Follow Us!</h4>
+                    <ul class="social-icons">
+                        <li class="socialisons"><a class="footer-icons" href=""><img src="img/facebook.png" alt=""></a></li>
+                        <li class="socialisons"><a class="footer-icons" href=""><img src="img/instagram.png" alt=""></a></li>
+                        <li class="socialisons"><a class="footer-icons" href=""><img src="img/twitter.png" alt=""></a></li>
+
+                    </ul>
+                </div>
+     
+            </div>
+
+                
+            </div>
+        </div>
+    </div>
+</footer>
+</div>
+
+</body>
+</html>

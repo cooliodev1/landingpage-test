@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24.749" height="24.749" viewBox="0 0 24.749 24.749">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Path_3" data-name="Path 3" d="M2-22H29a2,2,0,0,1,2,2,2,2,0,0,1-2,2H2a2,2,0,0,1-2-2A2,2,0,0,1,2-22Z" fill="none" clip-rule="evenodd"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <path id="Path_2" data-name="Path 2" d="M-20,2032H355V-59H-20Z" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <path id="Path_9" data-name="Path 9" d="M2-4H29a2,2,0,0,1,2,2,2,2,0,0,1-2,2H2A2,2,0,0,1,0-2,2,2,0,0,1,2-4Z" fill="none" clip-rule="evenodd"/>
+    </clipPath>
+  </defs>
+  <g id="Group_7" data-name="Group 7" transform="translate(-3.126 32.374)">
+    <g id="Group_2" data-name="Group 2" transform="translate(18.682 5.102) rotate(-45)" clip-path="url(#clip-path)">
+      <g id="Group_1" data-name="Group 1" clip-path="url(#clip-path-2)">
+        <path id="Path_1" data-name="Path 1" d="M-5-27H36v14H-5Z" fill="#fff"/>
+      </g>
+    </g>
+    <g id="Group_6" data-name="Group 6" transform="translate(3.126 -29.546) rotate(45)" clip-path="url(#clip-path-3)">
+      <g id="Group_5" data-name="Group 5" clip-path="url(#clip-path-2)">
+        <path id="Path_7" data-name="Path 7" d="M-5-9H36V5H-5Z" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>
